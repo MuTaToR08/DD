@@ -1,0 +1,38 @@
+﻿Сборка начата 20.03.2017 16:08:57.
+     1>Проект "C:\Users\user\Desktop\DandD\DandD\DandD.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\w.0 stop 2 sur\vs15GOGO\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt battlefield.cpp hero.cpp main.cpp
+         battlefield.cpp
+     1>c:\users\user\desktop\dandd\dandd\hero.h(18): error C2061: синтаксическая ошибка: идентификатор "battlefield"
+     1>c:\users\user\desktop\dandd\dandd\hero.h(33): error C3646: pole: неизвестный спецификатор переопределения
+     1>c:\users\user\desktop\dandd\dandd\hero.h(33): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\users\user\desktop\dandd\dandd\hero.h(34): error C2535: void hero::move(hero,int,int): функция-член уже определена или объявлена
+         c:\users\user\desktop\dandd\dandd\hero.h(19): note:  см. объявление "hero::move"
+         hero.cpp
+     1>c:\users\user\desktop\dandd\dandd\hero.h(34): error C2535: void hero::move(hero,int,int): функция-член уже определена или объявлена
+         c:\users\user\desktop\dandd\dandd\hero.h(19): note:  см. объявление "hero::move"
+     1>hero.cpp(20): error C2819: тип "battlefield" не имеет перегруженный "operator ->"
+         c:\users\user\desktop\dandd\dandd\battlefield.h(8): note:  см. объявление "battlefield"
+         hero.cpp(20): note: возможно, имеется в виду "."
+     1>hero.cpp(20): error C2232: ->battlefield::checkroom: левый операнд имеет тип "class", используйте "."
+     1>hero.cpp(26): error C2819: тип "battlefield" не имеет перегруженный "operator ->"
+         c:\users\user\desktop\dandd\dandd\battlefield.h(8): note:  см. объявление "battlefield"
+         hero.cpp(26): note: возможно, имеется в виду "."
+     1>hero.cpp(26): error C2232: ->battlefield::MoveHero: левый операнд имеет тип "class", используйте "."
+     1>hero.cpp(40): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>hero.cpp(100): error C2819: тип "battlefield" не имеет перегруженный "operator ->"
+         c:\users\user\desktop\dandd\dandd\battlefield.h(8): note:  см. объявление "battlefield"
+         hero.cpp(100): note: возможно, имеется в виду "."
+     1>hero.cpp(100): error C2232: ->battlefield::BackMoveHero: левый операнд имеет тип "class", используйте "."
+     1>hero.cpp(99): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+         main.cpp
+     1>c:\users\user\desktop\dandd\dandd\hero.h(34): error C2535: void hero::move(hero,int,int): функция-член уже определена или объявлена
+         c:\users\user\desktop\dandd\dandd\hero.h(19): note:  см. объявление "hero::move"
+     1>main.cpp(7): error C2601: main: недопустимые локальные определения функций
+         c:\users\user\desktop\dandd\dandd\midgame.h(10): note: эта строка содержит скобку "{", которая пока не имеет парной
+     1>c:\users\user\desktop\dandd\dandd\midgame.h(10): fatal error C1075: в конце файла обнаружен левый непарный фигурная скобка "{"
+     1>Сборка проекта "C:\Users\user\Desktop\DandD\DandD\DandD.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.69
